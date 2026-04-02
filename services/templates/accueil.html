@@ -1,0 +1,229 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier6-HTML-CSS</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}"> 
+    <script src="https://kit.fontawesome.com/433d3f50d4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+            <img src="{% static "media/logo.png" %}" alt="logo de ma page" class="logo">
+            </div>
+            <div class="bienvenue">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="dashboard.html">Restaurants</a></li>
+                <li><a href="#cours">Cours de Cuisine</a></li>
+                <li><a href="traiteur.html">Traiteurs</a></li>
+                <li><a href="pagecontact.html">Contacts</a></li>
+            </ul>
+            </div>
+            <div class="connect">
+                <ul>
+                    <li><a href="connexion.html" class="cn">Connexion</a></li>
+                    <a href="inscription-traiteur.html"><li><button class="inscri">Inscription </button></li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <section class="sect">
+        
+        <div class="left">
+            <h1>Découvrez la <span>Cuisine Sénégalaise </span></h1>
+            <p>Explorez les saveurs authentiques du Sénégal. Du Thiéboudienne aux <br>
+               Alloco, apprenez les secrets de la cuisine sénégalaise avec nos chefs <br> experts. </p>
+
+        </div>
+
+        <div class="right">
+            <img src="{% static "media/thieboudieunerouge.JPG" %}" alt=""> 
+        </div>
+    </section>
+
+    
+
+    <section class="sect1">
+        
+            <div class="divsect1">
+                <h2 class="h2">100+</h2>
+                <p>Restaurants Partenaires</p>
+            </div>
+
+            <div class="divsect1">
+                <h2 class="h2">30 mins</h2>
+                <p>Livraison Moyenne</p>
+            </div>
+
+            <div class="divsect1">
+                <h2 class="h2">50+</h2>
+                <p>Cours de Cuisine</p>
+            </div>
+
+            <div class="divsect1">
+                <h2 class="h2">4.8/5</h2>
+                <p>Note Moyenne</p>
+            </div>
+           
+    </section>
+     
+
+    <div class="service">
+            <h2>Nos Services</h2>
+            <p>Découvrez nos services de qualité pour tous vos besoins culinaires</p>
+    </div>
+    <section class="sect2">
+        
+        
+        <div class="divsect2">
+            <h4>Trouver un restaurant</h4>
+            <p>Commandez vos plats préférés et faites-vous <br>livrer rapidement à domicile. </p>
+            <p class="under">Trouver maintenant → </p>
+            
+        </div>
+
+        <div class="divsect2" id="cc">
+            <h4>Cours de cuisine </h4>
+            <p>Apprenez à cuisiner avec nos chefs <br> professionnels en direct ou en replay. </p>
+            <p class="under">Découvrir les cours → </p>
+            
+        </div>
+
+        <div class="divsect2">
+            <h4>Services de traiteur</h4>
+            <p>Organisez vos événements avec nos services <br> de traiteur professionnels. </p>
+            <p class="under">Voir les traiteurs →</p>
+            
+        </div>
+        
+
+    </section>
+
+    <section class="sect3">
+       <div class="divsect3">
+            <h2>Trouver les restaurants les plus proches de vous? </h2>
+            <iframe class="map0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d169357.02314017297!2d-17.345051644418447!3d14.698243074950637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1766170242341!5m2!1sfr!2ssn" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>   
+        
+    </section>
+    
+    <section class="sect4">
+        
+            <h2>Ce que disent nos clients a propos des restaurant</h2>
+    <div class="gdivsect4">
+
+        <div class="divsect4">
+            <div class="icone">
+                <button id="fd1" class="fd">FD</button>
+                <h4>Fatou Diop</h4>
+            </div>
+            
+            <span class="etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+            <p>"Excellent service! Les plats sont <br> délicieux et la livraison rapide." </p>
+        </div>
+
+        <div class="divsect4">
+          <div class="icone"> 
+            <button id="fd2" class="fd">MD</button>
+            <h4> Mamadou Diallo</h4>
+          </div> 
+            
+            <span class="etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+            <p>"J'ai adoré les cours de cuisine. Les <br>chefs sont très professionnels."</p>
+        </div>
+
+        <div class="divsect4">
+            <div class="icone">
+                <button  id="fd3" class="fd">AB</button>
+                <h4> Aissatou Ba</h4>
+            </div>
+            
+            <span class="etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i id="etl"  class="fa-solid fa-star"></i></span>
+            <p>"Service de traiteur impeccable pour <br>mon mariage. Tout était parfait !"</p>
+        </div>
+
+        <div class="divsect4">
+            <div class="icone">
+                <button id="fd4" class="fd">OS</button>
+                <h4>Ousmane Sall</h4>
+            </div>
+            
+            <span class="etoile"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+            <p>"La meilleure plateforme pour <br>découvrir la cuisine sénégalaise." </p>
+        </div>
+    </div>
+    </section>
+
+    <section class="sect5">
+        <div class="divsect5">
+        <h2 class="pret">Prêt à commencer ? <br>Commandez dès maintenant. </h2>
+        <p class="dec">Découvrez nos restaurants partenaires et faites-vous livrer vos plats préférés. </p>
+        <button class="bu">Trouver un restaurant!→</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="divfooter1">
+            <div class="pr">
+            <div class="ma">
+            <h4>A propos</h4><br>
+            </div>
+            <p><a href=""> Qui sommes nous</a></p><br>
+            <p> <a href="">Contacts</a></p><br>
+            <p> <a href="">Mentions legales</a></p><br>
+            <p><a href="">Politique de confidentialite</a></p><br>
+            <br>
+        </div>
+           <div class="pr">
+           <div class="ma">
+            <h4>Services</h4><br>
+            </div>
+            <p><a href="">Traiteurs</a></p><br>
+            <p> <a href="">Restaurants</a></p><br>
+            <p><a href="">Cours de cuisine</a></p><br> 
+            <br>
+            <br>
+        </div>
+        
+        <div class="pr">
+            <div class="ma">
+            <h4>Devenir partenaire</h4><br>
+            </div>
+            <p><a href="">Connexion</a></p><br>
+            <p><a href="">FAQ professionnels </a></p><br>
+            <br>
+            <br>
+            <br>
+            
+        </div>
+        <div class="pr">
+            <div class="ma">
+            <h4>Star Buffet</h4><br>
+            </div>
+            <address>Dakar, Senegal</address><br>
+            <p>Tel: +221 77 000 00 00</p><br>
+            <p>Email: contact@starbuff.com</p><br>
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i>
+            <br>
+            <br>
+        </div> 
+        </div>
+
+        <div class="soulign">
+            <hr>
+            <br><br>
+            <p> © 2025 Star Buffet. Tous droits reserves.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

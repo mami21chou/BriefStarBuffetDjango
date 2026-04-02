@@ -568,4 +568,89 @@ width: 100px;
 }
 
 
+/* ----------------------- partie index.html---------------------------------------- */
+    header{
+        position: static;
+        
+    }
+.bienvenue ul li a{
+    display: none;
+}
+.connect ul{
+    display: none;
+} 
 
+.sect{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100vw;
+    margin-right: 0% ;
+    justify-content: center;
+   
+}
+.sect .right{
+    width: 100%;
+   align-self: normal;
+}
+.sect .right img{
+   /* justify-items: left; */
+   width: 120vw;
+   height: 50vh;
+   /* margin-right: 100%; */
+
+}
+
+.sect .left{
+    width: 90%;
+    align-items: center;
+    float: left;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.sect1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+.sect1 .divsect1{
+    font-size: 20px;
+}
+.service{
+    font-size: 22px;
+}
+.sect2{
+    display: grid;
+    gap: 30px;
+}
+.sect2 .divsect2{
+    font-size: 30px;
+}
+.sect3 .divsect3 .map0{
+    width: 70%;
+    height: 150px;
+}
+.sect4 .gdivsect4{
+    display: grid;
+    
+}
+.divsect4{
+    padding: 30px 60px;
+    font-size: 25px;
+}
+
+
+.divfooter1{
+    display: grid;
+    justify-content: left;
+    gap: 20px;
+    font-size: 20px;
+}
+.soulign p{
+    font-size: 22px;
+}
+.sect5 .divsect5{
+    font-size: 23px;
+}

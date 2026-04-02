@@ -8,6 +8,14 @@ from django.views.generic.edit import CreateView
 
 # Create your views here.
 
+
+
+
+def accueil(resquest):
+    return render(resquest, 'accueil.html')
+
+
+
 def liste_traiteurs(request):
     traiteurs= Traiteur.objects.all()
     return render(request, 'liste.html', {'traiteurs':traiteurs})
@@ -38,4 +46,3 @@ class SignUpView(CreateView):
     form_class= UserCreationForm
     success_url= reverse_lazy('login')
     template_name= 'registration/signup.html'
-    
