@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}details-traiteur{% endblock %}
+{% block content %}
+{% block extra_css %}<link rel="stylesheet" href="{% static 'services/monstyle.css' %}">{% endblock %}
+
+<body class="bodydetails">
+  <section class="section1details">
+    <div class="div1section1details">
+      <img class="img1detailsection1" src="{% static 'media/plat-prepare-ou-fait-maison-quel-est-le-moins-cher-scaled.jpeg' %}" alt="">
+      <div class="verifie">
+        <p><i class="fa-solid fa-circle-check"></i> Vérifié</p>
+      </div>
+      <div class="etoile">
+        <p><i class="fa-solid fa-star"></i> 0.0/5</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section2details">
+    <div class="leftsection2details">
+      <div class="divleftsection2details">
+        <h3>A propos</h3>
+        <p>{{ details.nom_complet }}</p>
+      </div>
+
+      <div class="divleftsection2details">
+        <h3>Contact</h3>
+        <p><i class="fa-solid fa-location-dot"></i> {{ details.adresse }}</p>
+        <p><i class="fa-solid fa-phone"></i> {{ details.telephone }}</p>
+        <p><i class="fa-solid fa-envelope"></i> {{ details.email }}</p>
+      </div>
+
+      <div class="divleftsection2details">
+        <h3>Spécialité</h3>
+        <div class="divSpecialites">
+          <p>{{ details.specialites }}</p>
+        </div>
+      </div>
+
+      <div class="divleftsection2details">
+        <h3>Services proposés</h3>
+        <div class="divServicesproposes">
+          <div>
+            <p><i class="fa-solid fa-check"></i> Mariages</p>
+            <p><i class="fa-solid fa-check"></i> Cocktails</p>
+          </div>
+          <div>
+            <p><i class="fa-solid fa-check"></i> Anniversaires</p>
+            <p><i class="fa-solid fa-check"></i> Cuisine sur mesure</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="divleftsection2details">
+        <h3>Expériences</h3>
+        <p>19 ans d'expérience</p>
+      </div>
+    </div>
+
+    <div class="rightsection2details">
+      <div class="divrightsection2details">
+        <h3>Langues parlées</h3>
+        <div class="languesparlees">
+          <p>Français</p>
+          <p>Indienne</p>
+          <p>Arabe</p>
+        </div>
+      </div>
+
+      <div class="divrightsection2details">
+        <button id="contactersection2details">
+          <i class="fa-solid fa-phone"></i> Contact
+        </button>
+      </div>
+    </div>
+  </section>
+</body>
+
+{% endblock %}

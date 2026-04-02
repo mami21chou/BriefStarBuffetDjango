@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>{% block title %} {% endblock %}</title>
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+   
+ 
+
+ <header>
+        <nav>
+            <div>
+                <img src="{% static 'media/logo.png' %}" alt="logo de ma page" class="logo">
+            </div>
+            <div class="bienvenue">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="dashboard.html">Restaurants</a></li>
+                    <li><a href="#cours">Cours de Cuisine</a></li>
+                    <li><a href="#traiteurs">Traiteurs</a></li>
+                    <li><a href="pagecontact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="connect">
+                <ul>
+                    <li><a href="connexion.html" class="cn">Connexion</a></li>
+                   <a href="inscription-traiteur.html"> <li><button class="inscri">Inscription</button></li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    {% block content %}
+    
+    {% endblock %}
+
+    {% include "footer.html" %}
+
+
+
+</body>
+</html>

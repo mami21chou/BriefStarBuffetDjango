@@ -1,0 +1,571 @@
+
+.image{
+  width: 100%;
+    height: 400px;
+    background: url("image/banner-caterers.jpg") center/cover no-repeat;
+    background-blend-mode: multiply;
+    background-color: #91654e;
+    display: flex;
+    justify-content: center;
+}
+.traiteur{
+    position: absolute;
+    padding-top: 150px;
+   
+    color: white;
+    align-items: center;
+    margin-left: 300px;
+}
+.traiteur h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.input-text{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff3e0;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    align-items: center;
+   
+ 
+}
+
+
+
+.input-text h2{
+  margin-left: 350px;
+}
+
+.input select{
+    width: 100%;
+    padding: 9px;
+     background-color: white;
+     border: 1px solid #999;
+     border-radius: 10px;
+     gap: 10px;
+}
+.btn{
+    display: flex;
+justify-content: space-around; 
+gap: 10px;
+margin-right: 100px;
+margin-left: -150px;
+}
+.btn button{
+    padding: 9px;
+    background-color: white;
+  border: none;
+  border-radius: 10px;
+
+margin-top: 20px;
+
+}
+.btn .bttn{
+    background-color: #e65100;
+    color: white;
+     margin-left: 100px;
+}
+.content{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: #fff3e0;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+
+
+}
+
+
+.parent {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr); */
+    display: flex;
+   gap: 10px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  background-color: white;
+  height: 160px;
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 100px;
+
+}
+.content .parent .div1 .verifier{
+    position: relative;
+    padding: 8px;
+    background-color: greenyellow;
+    color: green;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+.verifier i{
+     margin-bottom: 200px;
+}
+.img{
+    width: 150%;
+    height: 160px;
+}
+.mere{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    margin-left: 100px;
+}
+.div4 h4 i{
+    font-size: 14px;
+    color: #585757;
+}
+.div4 p span{
+    font-weight: bold;
+}
+.div1 .img img{
+    width: 300%;
+    height: 100px;
+}
+.div5 {
+    grid-column-start: 4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div5 button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+.div5 button a{
+    text-decoration: none;
+    color: white;
+}
+.bn{
+    margin-left: 10px;
+}
+.div5 i{
+  color: #ffb300;
+}
+.div5 p{
+    margin-left: 50px;
+}
+.content-text1{
+   box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  background-color: white;
+ gap: 30px;
+ padding-top: 10px;
+ margin-top: 10px;
+ width: 900px;
+ height: 200px;
+ 
+}
+
+
+.imagine{
+    margin-left: 100px;
+    height: 90%;
+}
+.imagine img{
+    margin-left: -100px;
+    height: 100%;
+}
+.contact1{
+     margin-left: 230px;
+    margin-top: -150px;
+    justify-content: space-between;
+    display: grid;
+
+   
+}
+.border{
+    position: relative;
+    margin-top: 30px;
+}
+.contenair-img{
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-position: center;
+      background-image:
+    linear-gradient(
+      rgba(223, 91, 20, 0.534),
+      rgba(218, 94, 27, 0.596)
+    ),
+    url("image/banner-head-accueil.jpg");
+}
+.content-text{
+    position: absolute;
+  top: 30%;
+  margin-left: 350px;
+  color: white;
+  text-align: center;
+}
+.button{
+  position: absolute;
+  bottom: 30%;
+  margin-left: 550px;
+  color: #e65100;
+  text-align: center;
+   box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+   background-color: white;
+   padding: 15px;
+   border-radius: 8px;
+}
+.button a{
+    text-decoration: none;
+     color: #e65100;
+}
+
+
+
+.section{
+    background-color: #fff3e0;
+    height: 300%;
+    padding: 30px;
+    
+}
+.forms{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    background-color: white;
+    margin-left: 154px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1000px;
+    height: 1420px;
+    padding: 70px;
+   margin-right: 50px;
+    border-radius: 10px;
+}
+.min{
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+     padding: 40px;
+     border-radius: 10px;
+      margin-left: 28px;
+      height: 270px;
+      width: 780px;
+
+}
+
+.form-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-text input{
+    padding: 8px;
+    width: 47%;
+    border-radius: 7px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-top: 10px;
+}
+.text .email{
+    margin-right: 270px;
+   
+}
+.form-text .input{
+    background-color: rgba(173, 216, 230, 0.5);
+      padding-bottom: 19px
+}
+.form-text1 .input1{
+    background-color: rgba(173, 216, 230, 0.5);
+    padding-bottom: 19px;
+    border-radius: 7px;
+}
+input::placeholder {
+    color: black;
+    font-size: 14px;
+}
+.input1::placeholder {
+   
+    color: black;
+    font-size: 29px;
+    font-weight: bold;
+}
+.text1{
+     display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.form-text1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-text1 input{
+    padding: 8px;
+    width: 47%;
+    border-radius: 8px;
+}
+.text1 .para{
+     margin-right: 120px;
+}
+.box{
+   margin-top: 10px;
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  background-color: white;
+    padding: 40px;
+     border-radius: 10px;
+       margin-left: 25px;
+      width: 780px;
+      height: 560px;
+}
+.form-select select{
+    padding: 16px;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+}
+.form-input input{
+      padding: 16px;
+    width: 100%;
+    border-radius: 7px;
+}
+.form-input textarea{
+       padding: 50px;
+    width: 100%;
+    border-radius: 8px
+}
+/* .checkbox{
+    display: grid;
+    grid-template-columns: 100px;
+} */
+
+.case{
+    display: flex;
+    grid-template-columns: 100px 100px;
+}
+.case .chexbox1{
+    margin-left: 300px;
+}
+.info{
+      margin-top: 10px;
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  background-color: white;
+    padding: 40px;
+     border-radius: 10px;
+       margin-left: 25px;
+      width: 780px;
+      height: 200px;
+}
+.text3{
+     display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.check input{
+       padding: 16px;
+    width: 47%;
+    border-radius: 7px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.text3 .para1{
+    margin-right: 250px;
+}
+.contacts{
+        margin-top: 10px;
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  background-color: white;
+    padding: 40px;
+     border-radius: 10px;
+       margin-left: 25px;
+      width: 780px;
+      height: 200px
+}
+.contact input{
+       padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+   
+    
+    
+}
+.bbb{
+    margin-left: 700px;
+    padding-top: 20px;
+    
+}
+.bbb button{
+background-color: #e65100;
+padding: 10px;
+border-radius: 10px;
+color: white;
+width: 100px;
+}
+.file{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.file p{
+    margin-right: 50%;
+    margin-top: 10px;
+}
+.btn-file {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff3e0; 
+    color: rgb(153, 29, 29);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-file:hover {
+    background-color: #fff3e0;
+}
+
+
+
+
+
+/* --------------------css pour la partie detail-traiteur.html --------------------------------------*/
+
+#headerdetails {
+    margin-top: 0%;
+    position: static;
+}
+.bodydetails{
+    background-color: #FFFFB2;
+}
+
+.section1details .div1section1details .img1detailsection1{
+    box-shadow: 5px 5px 30px #e8e89a;
+    height: 300px;
+    width: 1260px;
+    margin-left: 15px;
+    margin-right: 15px; 
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;  
+}
+
+.section1details .div1section1details .img1detailsection1:hover{
+    cursor: pointer;
+    /* width: 1260px;
+    height: 700px; */
+}
+
+.section1details .div1section1details .verifie{
+    position: absolute;
+    color: green;
+    margin-top: -2%;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 8%;   
+}
+
+.section1details .div1section1details .etoile{
+    color: orange;
+    margin-top: -2%;
+    margin-left: 3%;
+    padding: 2px;
+}
+.section1details .div1section1details{
+    margin-top: 4%;
+}
+
+.section2details{
+    display: grid;
+    grid-template-columns: 70% 27%;
+    margin-left: 15px;
+    margin-top: 20px;
+    gap: 20px;
+
+  
+}
+
+.section2details .leftsection2details .divleftsection2details{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #e8e89a;
+    
+}
+
+
+.divServicesproposes{
+    display: flex;
+    gap: 40%; 
+}
+
+.divServicesproposes p i{
+    color: rgb(21, 232, 21);
+}
+
+.section2details .rightsection2details .divrightsection2details{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #e8e89a;
+
+
+}
+.rightsection2details .languesparlees{
+    display: flex;
+    gap: 15px;
+}
+
+.rightsection2details .languesparlees p{
+    background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    padding: 3px;
+   
+}
+
+.divSpecialites{
+    display: flex;
+    gap: 15px;
+}
+
+.divSpecialites p{
+     background-color: rgb(202, 198, 198);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#contactersection2details{
+    background-color: #4338CA;
+    padding: 4px 35%;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+#contactersection2details:hover{
+    cursor: pointer;
+    background-color: green;
+    
+}
+
+
+

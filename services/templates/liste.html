@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}liste-traiteur{% endblock%}
+
+{% block extra_css %}<link rel="stylesheet" href="{% static 'services/monstyle.css' %}">{% endblock %}
+
+
+
+{% block content %}
+
+<section>
+    <div class="traiteur">
+        <h1>Nos traiteurs</h1>
+        <p>Decouvrez nos traiteurs Professionels pour vos evenements, mariages, bapteme et <br> reception</p>
+    </div>
+    <div class="image">
+        <!-- <img src="image/banner-caterers.jpg" alt=""> -->
+    </div>
+</section>
+
+<section>
+    <div class="input-text">
+    <div class="filtre">
+     <h2>Filtres</h2>
+    </div>
+
+    <div class="input">
+     <label for="specialite">Specialite</label><br>
+     <select name="specialite" id="specialite">
+        <option value="">Toutes les specialites</option>
+     </select>
+    </div>
+    <div class="input">
+     <label for="statut">Statut</label><br>
+     <select name="statut" id="statut">
+        <option value="">Tous les traiteurs</option>
+     </select>
+    </div>
+    <div class="btn">
+    <button class="bttn">
+    <i class="fa-solid fa-filter"></i>
+ 
+    Filtre</button>
+    <button>
+    <i class="fa-solid fa-arrows-rotate"></i>
+    
+    Reinitialiser</button>
+    </div>
+    </div>
+</section>
+
+{% for t in  traiteurs %}
+<section class="content">
+
+
+<div class="parent">
+    
+    <div class="div1">
+<img class="img" src="{% static 'media/Recettes-de-plat-principal-faciles-et-raffinees.jpg' %}" alt="">
+
+    </div>
+<div class="mere">
+    <div class="div4">
+        <h4><i class="fa-solid fa-circle"></i>19 ans d'experience</h4>
+        <p>{{ t.nom_complet }}</p>
+        <p><span>Specialite :</span><br> {{ t.specialites }}</p>
+        <p><i class="fa-solid fa-phone"></i>{{ t.telephone }}</p>
+    </div>
+    <div class="div5">
+        <p><span> <i class="fa-solid fa-star"></i>0.0</span></p>
+      
+        <button><a href="{% url 'details_traiteur' t.id %}">Voir le profil</a></button>
+    </div>
+</div>
+</div> 
+</section>
+
+{% endfor %}
+
+
+
+
+<section class="border">
+
+    <div class="contenair-img">
+ 
+    </div>
+    <div class="content-text">
+     <h1 >vous etes traiteur ?</h1>
+     <p>Decouvrez nos restaurants partenaires et faites vous livrer vos plats preferer</p>
+    </div>
+    <div class="button">
+        <a href="inscription-traiteur.html"><h5>Devenir traiteur</h5></a>
+    </div>
+</section>
+
+{% endblock %}
