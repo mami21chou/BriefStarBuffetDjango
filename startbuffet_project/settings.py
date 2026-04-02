@@ -59,6 +59,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+
 ROOT_URLCONF = 'startbuffet_project.urls'
 
 TEMPLATES = [
@@ -141,6 +143,6 @@ MEDIA_ROOT=[BASE_DIR/ 'media']
 
 
 LOGIN_REDIRECT_URL = 'liste_traiteurs'      # Où rediriger après connexion
-LOGOUT_REDIRECT_URL = '/'    # Où rediriger après déconnexion
-LOGIN_URL = 'login'     
+LOGOUT_REDIRECT_URL = 'liste_traiteurs'    # Où rediriger après déconnexion
+LOGIN_URL = '/accounts/login'     
 

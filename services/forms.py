@@ -7,7 +7,7 @@ class TraiteurForms(forms.ModelForm):
         fields= '__all__'
         labels={
             'nom_complet':'nom complet',
-            'specialites':'Specialite, culinaires',
+            'specialites':'Specialite culinaires',
             'description':'description',
             'adresse': 'adresse traiteur',
             'est_actif':'disponibilite traiteur',

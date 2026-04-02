@@ -10,28 +10,32 @@
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="dashboard.html">Restaurants</a></li>
                     <li><a href="#cours">Cours de Cuisine</a></li>
-                    <li><a href="{% url 'services:liste_traiteurs' %}">Traiteurs</a></li>
+                    <li><a href="{% url 'liste_traiteurs' %}">Traiteurs</a></li>
                     <li><a href="pagecontact.html">Contacts</a></li>
                 </ul>
             </div>
             <div class="connect">
-                <ul>
-                    <li><a href="connexion.html" class="cn">Connexion</a></li>
-                   <a href="inscription-traiteur.html"> <li><button class="inscri">Inscription</button></li></a>
-                </ul>
-            </div>
+                
+           
 
             {% if user.is_authenticated %}
-                 <span>Bonjour, <strong>{{user.username}}</strong></span>
-        
-                <a href="{% url "logout" %}">Deconnexion</a>
+                 <h1>Bonjour, <strong>{{user.username}}</strong></h1>
+                <form action="{% url "logout" %}" method='POST'> 
+                    {% csrf_token %}
+                    <button type='submit'>Deconnexion</button>
+                </form>
                 <a href="{% url "password_change" %}">Changer votre mot de passe</a>
-                
+
+
                 
             {% else %}   
-                <a href="{% url "registration/login" %}">Se connecter</a>
-                <a href="{% url "sign_up" %}">S'incrire</a>
+                <ul>
+                    <li><a href="{% url "login" %}" class="cn">Connexion</a></li>
+                   <a href="{% url "signup" %}"> <li><button class="inscri">Inscription</button></li></a>
+                </ul>
+               
             
             {% endif %}
+             </div>
         </nav>
     </header>
