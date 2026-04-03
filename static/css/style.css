@@ -1,567 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background-color: #e65100;
-   
-   
-  
-}
-.logo {
-     width: 20%;
-     margin-left: 100px;
-     
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    justify-content: space-between;
-   
-}
-.navig ul li{
-    padding: 20px 25px;
-    justify-content: space-between;
-       
-}
-.navig ul li a{
-    text-decoration: none;
-    font-size: 14px;
-    align-items: center;
-    color: #999;
-    gap: 20px;
-    justify-content: center;
-   
-    
-}
-.navig ul li a.active{
-    background-color: #e65100;
-    transform: none;
-    text-underline-offset: 10px;
-    transition: 0.5s;
-  color: white;
-   padding: 10px;
-   border-radius: 10px;
-}
-.navig ul li a:hover{
-    padding: 10px;
-    background-color: #e65100;
-   color: white;
-   border-radius: 10px;
-     transform: rotate(10deg);
-    text-underline-offset: 10px;
-    transition: 0.5s;
-   
-}
-.connect{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    text-align: center;
-}
-.btn1{
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-    font-size: 14px;
-    border-radius: 10px;
-    color: #999;
-    padding: 10px;
-    cursor: pointer;
-    margin-right: 20px;
-}
-
-.btn2{
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-    font-size: 14px;
-    border-radius: 10px;
-    color: white;
-   
-    padding: 10px;
-    background-color: #e65100;
-    cursor: pointer;
-}
-.btn2 h4:hover{
-    transition: 0.5s;
-}
-.image{
-  width: 100%;
-    height: 400px;
-    background: url("image/banner-caterers.jpg") center/cover no-repeat;
-    background-blend-mode: multiply;
-    background-color: #91654e;
-    display: flex;
-    justify-content: center;
-}
-.traiteur{
-    position: absolute;
-    padding-top: 150px;
-   
-    color: white;
-    align-items: center;
-    margin-left: 300px;
-}
-.traiteur h1{
-    font-weight: bold;
-    font-size: 50px;
-}
-.input-text{
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff3e0;
-    padding-bottom: 20px;
-    padding-top: 30px;
-    align-items: center;
-   
- 
-}
-
-
-
-.input-text h2{
-  margin-left: 350px;
-}
-
-.input select{
-    width: 100%;
-    padding: 9px;
-     background-color: white;
-     border: 1px solid #999;
-     border-radius: 10px;
-     gap: 10px;
-}
-.btn{
-    display: flex;
-justify-content: space-around; 
-gap: 10px;
-margin-right: 100px;
-margin-left: -150px;
-}
-.btn button{
-    padding: 9px;
-    background-color: white;
-  border: none;
-  border-radius: 10px;
-
-margin-top: 20px;
-
-}
-.btn .bttn{
-    background-color: #e65100;
-    color: white;
-     margin-left: 100px;
-}
-.content{
-    display: grid;
-    grid-template-rows: auto auto;
-    background-color: #fff3e0;
-    justify-content: center;
-    padding: 50px;
-    gap: 20px;
-
-
-}
-
-
-.parent {
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr); */
-    display: flex;
-   gap: 10px;
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-  background-color: white;
-  height: 160px;
-  width: 80%;
-  border-radius: 10px;
-  margin-left: 100px;
-
-}
-.content .parent .div1 .verifier{
-    position: relative;
-    padding: 8px;
-    background-color: greenyellow;
-    color: green;
-    font-size: 12px;
-    border-radius: 20px;
-    margin-top: 20px;
-    width: 50%;
-}
-.verifier i{
-     margin-bottom: 200px;
-}
-.img{
-    width: 150%;
-    height: 160px;
-}
-.mere{
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-
-}
-
-.div4 {
-    grid-column: span 2 / span 2;
-    padding-top: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 14px;
-    margin-left: 100px;
-}
-.div4 h4 i{
-    font-size: 14px;
-    color: #585757;
-}
-.div4 p span{
-    font-weight: bold;
-}
-.div1 .img img{
-    width: 300%;
-    height: 100px;
-}
-.div5 {
-    grid-column-start: 4;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.div5 button{
-    width: 100px;
-    background-color: black;
-    color: white;
-    padding: 7px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    
-}
-.div5 button a{
-    text-decoration: none;
-    color: white;
-}
-.bn{
-    margin-left: 10px;
-}
-.div5 i{
-  color: #ffb300;
-}
-.div5 p{
-    margin-left: 50px;
-}
-.content-text1{
-   box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-  background-color: white;
- gap: 30px;
- padding-top: 10px;
- margin-top: 10px;
- width: 900px;
- height: 200px;
- 
-}
-
-
-.imagine{
-    margin-left: 100px;
-    height: 90%;
-}
-.imagine img{
-    margin-left: -100px;
-    height: 100%;
-}
-.contact1{
-     margin-left: 230px;
-    margin-top: -150px;
-    justify-content: space-between;
-    display: grid;
-
-   
-}
-.border{
-    position: relative;
-    margin-top: 30px;
-}
-.contenair-img{
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    background-position: center;
-      background-image:
-    linear-gradient(
-      rgba(223, 91, 20, 0.534),
-      rgba(218, 94, 27, 0.596)
-    ),
-    url("image/banner-head-accueil.jpg");
-}
-.content-text{
-    position: absolute;
-  top: 30%;
-  margin-left: 350px;
-  color: white;
-  text-align: center;
-}
-.button{
-  position: absolute;
-  bottom: 30%;
-  margin-left: 550px;
-  color: #e65100;
-  text-align: center;
-   box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-   background-color: white;
-   padding: 15px;
-   border-radius: 8px;
-}
-.button a{
-    text-decoration: none;
-     color: #e65100;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(1, 1, 18);
-    color: #FFF;
-    gap: 10px;
-    padding: 40px 0;
-    margin-top: 25px;
-}
-
-.footer{
-   
-    width: 100%;
-}
-.footer{
-    display: flex;
-    justify-content: space-around;
-    gap: 80px;
-    border-bottom: 1px solid #5e5c5c;
-} 
-
-.footer p{
-    font-weight: bold;
-}
-
-.footer ul li{
-    color: gray;
-    list-style: none;
-}
-
-.section{
-    background-color: #fff3e0;
-    height: 300%;
-    padding: 30px;
-    
-}
-.forms{
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-    background-color: white;
-    margin-left: 154px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 1000px;
-    height: 1420px;
-    padding: 70px;
-   margin-right: 50px;
-    border-radius: 10px;
-}
-.min{
-     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-     padding: 40px;
-     border-radius: 10px;
-      margin-left: 28px;
-      height: 270px;
-      width: 780px;
-
-}
-
-.form-text{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.form-text input{
-    padding: 8px;
-    width: 47%;
-    border-radius: 7px;
-}
-.text{
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    margin-top: 10px;
-}
-.text .email{
-    margin-right: 270px;
-   
-}
-.form-text .input{
-    background-color: rgba(173, 216, 230, 0.5);
-      padding-bottom: 19px
-}
-.form-text1 .input1{
-    background-color: rgba(173, 216, 230, 0.5);
-    padding-bottom: 19px;
-    border-radius: 7px;
-}
-input::placeholder {
-    color: black;
-    font-size: 14px;
-}
-.input1::placeholder {
-   
-    color: black;
-    font-size: 29px;
-    font-weight: bold;
-}
-.text1{
-     display: flex;
-    justify-content: space-between;
-    color: black;
-}
-.form-text1{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.form-text1 input{
-    padding: 8px;
-    width: 47%;
-    border-radius: 8px;
-}
-.text1 .para{
-     margin-right: 120px;
-}
-.box{
-   margin-top: 10px;
-      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-  background-color: white;
-    padding: 40px;
-     border-radius: 10px;
-       margin-left: 25px;
-      width: 780px;
-      height: 560px;
-}
-.form-select select{
-    padding: 16px;
-    width: 100%;
-    background-color: white;
-    border-radius: 7px;
-}
-.form-input input{
-      padding: 16px;
-    width: 100%;
-    border-radius: 7px;
-}
-.form-input textarea{
-       padding: 50px;
-    width: 100%;
-    border-radius: 8px
-}
-/* .checkbox{
-    display: grid;
-    grid-template-columns: 100px;
-} */
-
-.case{
-    display: flex;
-    grid-template-columns: 100px 100px;
-}
-.case .chexbox1{
-    margin-left: 300px;
-}
-.info{
-      margin-top: 10px;
-      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-  background-color: white;
-    padding: 40px;
-     border-radius: 10px;
-       margin-left: 25px;
-      width: 780px;
-      height: 200px;
-}
-.text3{
-     display: flex;
-    justify-content: space-between;
-    color: black;
-}
-.check input{
-       padding: 16px;
-    width: 47%;
-    border-radius: 7px;
-}
-.check{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.text3 .para1{
-    margin-right: 250px;
-}
-.contacts{
-        margin-top: 10px;
-      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
-  background-color: white;
-    padding: 40px;
-     border-radius: 10px;
-       margin-left: 25px;
-      width: 780px;
-      height: 200px
-}
-.contact input{
-       padding: 10px;
-    width: 50%;
-    border-radius: 8px;
-   
-    
-    
-}
-.bbb{
-    margin-left: 700px;
-    padding-top: 20px;
-    
-}
-.bbb button{
-background-color: #e65100;
-padding: 10px;
-border-radius: 10px;
-color: white;
-width: 100px;
-}
-.file{
-    display: flex;
-    justify-content: space-between;
-   
-}
-.file p{
-    margin-right: 50%;
-    margin-top: 10px;
-}
-.btn-file {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff3e0; 
-    color: rgb(153, 29, 29);
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.btn-file:hover {
-    background-color: #fff3e0;
-}
-
-
-
-
 
 
 *{
@@ -948,152 +384,379 @@ hr{
 
 /* ----------------------------------css traiteur.html------------------------------------------- */
 
-.section1 .divsection1{
-    background-image: linear-gradient(rgba(192,79,19,0.3)), url(images/banner-caterers.jpg);
-    background-position: center;
-    object-fit: cover;
-    background-size: cover;
-    padding: 150px;
-    color: white;
-    text-align: center;
-    
-}
-.section1 .divsection1 .h1divsection1{
-     padding-right: 350px;
-           
-}
-.section2{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 100px;
-}
-.section2 .divsection2{
-    display: flex;
-    gap: 250px;
-    align-items: center;
-    justify-content: center;
-}
-.section2 .divsection2 .div2section2{
-    display: flex;
-    gap: 20px;   
-}
-.section2 .divsection2 .div1section2{
-    margin-left: 85px;
-}
-.section2 .divsection2 .div5section2{
-   display: flex;
-   padding-right: 200px;
-   gap: 20px;
-   align-items: center;
-}
-#specialite{
-    padding: 10px;
-    border-radius: 6px;
-}
-#statut{
-    padding: 10px;
-    border-radius: 6px;
-}
-.div5section2 .div3section2 #filtre{
-    background-color: #E65100;
-    padding:  10px;
-    border-radius: 6px;
-    border: none;
-    color: white;
-    margin-top: 14px;    
-}
-.div5section2 .div3section2 #filtre:hover{
-    cursor: pointer;
-    background-color: green;
-}
-#reinitialiser{
-    background-color: white;
-    padding:  10px;
-    border-radius: 6px;
-    color: black;
-    margin-top: 14px;
-}
-#reinitialiser:hover{
-    cursor: pointer;
-    background-color: green;
-}
-.section3 .divsection3 .div1section3 .verifie{
-    position: absolute;
-    background-color: rgb(124, 243, 124);
-    color: green;
-    margin-top: -6%;
-    border-radius: 6px;
-    padding: 2px;
-    margin-left: 16%;
-}
-.section3 .divsection3 .div1section3{
-    width: 35%;
-} 
-.maintraiteur{
-    background-color: #fffbeb;
-}
-.section3 .divsection3 .div1section3 .imgsection3{
-    width: 300px;
-    height: 170px;
-    object-fit: cover;
-    background-position: center;
-    position: absolute;
-    border-radius: 10px;
-    margin-top: -7%;
-    margin-left: -13%;
-    box-shadow: 5px 5px 30px rgb(246, 232, 232); 
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.section3 .divsection3{
+header {
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 4;
+}
+
+nav {
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
-    box-shadow: 5px 5px 30px rgb(243, 235, 235); 
+    justify-content: space-between;
     align-items: center;
-    width: 70%;
-    border-radius: 6px;
-    text-align: center;
-    margin-left: 15%;
 }
-.section3 .divsection3 .div2section3 .specialite{
+
+.logo {
+    width: 100px;
+    height: 70px;
+}
+
+.bienvenue ul {
     display: flex;
-    gap: 4px;
-}
-.section3 .divsection3 .div2section3 .specialite p{
-    padding: 1px;
-    background-color: rgb(202, 197, 197);
-    border-radius: 3px;
+    gap: 50px;
 }
 
-.section3 .divsection3 .div2section3{
-    text-align: justify;
-    color: rgb(82, 77, 77);
+.bienvenue ul li {
+    list-style: none;
 }
 
-.section3 .divsection3 .div3section3{
-     margin-left: 30%; 
-}
-.section3 .divsection3 .div3section3 button a{
+.bienvenue ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 37);
 }
-.section3 .divsection3 .div3section3 button {
+
+.connect ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.connect ul li {
+    list-style: none;
+}
+
+.connect ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 37);
+}
+
+ul li .inscri {
     padding: 10px;
-    border-radius: 6px;
-    background-color: black;
-    color: white;
-    margin-top: 100%;
+    background-color: #E65100;
+    border-radius: 8px;
 }
-.section3 .divsection3 .div3section3 button:hover{
+
+ul li .inscri:hover {
     cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #E65100;
+    cursor: pointer;
+    padding: 10px;
+    background-color: aliceblue;
+    border-bottom: 5px solid #E65100;
+}
+
+/* ========== STYLES POUR LA PAGE LISTE-TRAITEUR ========== */
+
+/* Section 1 - Hero Banner */
+section:first-of-type {
+    background-image: linear-gradient(rgba(192, 79, 19, 0.6), rgba(192, 79, 19, 0.6)), url(images/banner-caterers.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+}
+
+.traiteur h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.traiteur p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Section 2 - Filtres */
+section:nth-of-type(2) {
+    background-color: #FFF3E0;
+    padding: 40px 20px;
+}
+
+.input-text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filtre h2 {
+    color: #E65100;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#specialite, #statut {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.bttn {
+    background-color: #E65100;
+    color: white;
+}
+
+.bttn:hover {
+    background-color: green;
+}
+
+.btn button:last-child {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+.btn button:last-child:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Section 3 - Cartes des traiteurs */
+.content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.parent {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.parent:hover {
+    transform: translateY(-5px);
+}
+
+.div1 {
+    flex: 0 0 250px;
+}
+
+.img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mere {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.div4 h4 {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.div4 h4 i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.div4 p:first-of-type {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #E65100;
+    margin-bottom: 10px;
+}
+
+.div4 p span {
+    font-weight: bold;
+    color: #333;
+}
+
+.div4 p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.div4 p i {
+    margin-right: 8px;
+    color: #E65100;
+}
+
+.div5 {
+    text-align: center;
+}
+
+.div5 p span {
+    font-size: 1.2rem;
+    color: #FFB300;
+}
+
+.div5 p span i {
+    margin-right: 5px;
+}
+
+.div5 button {
+    background-color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.div5 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.div5 button:hover {
     background-color: #E65100;
 }
 
-.section3 .divsection3 .div3section3 p i {
-    color: orange;
+/* Section Devenir traiteur */
+.border {
+    background-image: linear-gradient(rgba(192, 79, 19, 0.7), rgba(192, 79, 19, 0.7)), url(images/banner-caterers.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 50px;
 }
 
+.content-text h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
 
+.content-text p {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.button a {
+    display: inline-block;
+    background-color: white;
+    color: #E65100;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button a:hover {
+    background-color: #E65100;
+    color: white;
+}
+
+.button h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+    }
+    
+    .div1 {
+        flex: auto;
+    }
+    
+    .mere {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .div5 {
+        margin-top: 10px;
+    }
+    
+    .btn {
+        flex-direction: column;
+    }
+    
+    .btn button {
+        width: 100%;
+    }
+    
+    #specialite, #statut {
+        max-width: 100%;
+    }
+    
+    section:first-of-type {
+        padding: 80px 20px;
+    }
+    
+    .traiteur h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .traiteur h1 {
+        font-size: 1.5rem;
+    }
+    
+    .content-text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .div4 p:first-of-type {
+        font-size: 1.1rem;
+    }
+}
 /* --------------------------------css pour la page inscription.hmtl ------------------------------ */
 .formulaire{
     margin-left: 15%;
@@ -1221,7 +884,6 @@ form{
 
 #headerdetails {
     margin-top: 0%;
-    position: static;
 }
 .bodydetails{
     background-color: #FFFFB2;
@@ -1681,44 +1343,335 @@ td a:hover{
 }
 
 
+
+
+
+
+
+
+/* ------------------partie detail.html --------------------------------------------*/
+#monimagedetails2{
+    width: 95%;
+    height: auto;
+}
+#monimagedetails1{
+    width: 95%;
+    height: auto;
+}
+
+.section2details{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 100%;
+    font-size: 20px;
+
+}
+.divServicesproposes{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 0px;
+    height: 200px;
+}
+.rightsection2details .languesparlees{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    
+   
+}
+.divSpecialites{
+    display: grid;
+    grid-template-rows: repeat(2,fr);
+}
+.section1details .div1section1details .verifie{
+    margin-top: -6%;
+    margin-left: 20%;
+}
+.section1details .div1section1details .etoile{
+    margin-top: -6%;
+    margin-left: 3%;
+
+}
+
+#contactersection2details{
+    font-size: 20px;
+    padding: 4px 20%;
+    margin-right: 0%;
+
+}
+.section3 .divsection3 .div1section3 .verifie{
+    margin-left: 80%;
+    margin-top: -7%;
+    background-color: aquamarine;
+}
+  
 }
 
 
 
-/* --------------------------Css formulaire django---------------------------------------- */
 
 
-form {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+
+
+
+
+
+
+
+/* ----------------------------------css traiteur.html------------------------------------------- */
+
+.section1 .divsection1{
+    background-image: linear-gradient(rgba(192,79,19,0.3)), url(images/banner-caterers.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    text-align: center;
+    
+}
+.section1 .divsection1 .h1divsection1{
+     padding-right: 350px;
+           
+}
+.section2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.section2 .divsection2{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.section2 .divsection2 .div2section2{
+    display: flex;
+    gap: 20px;   
+}
+.section2 .divsection2 .div1section2{
+    margin-left: 85px;
+}
+.section2 .divsection2 .div5section2{
+   display: flex;
+   padding-right: 200px;
+   gap: 20px;
+   align-items: center;
+}
+#specialite{
+    padding: 10px;
+    border-radius: 6px;
+}
+#statut{
+    padding: 10px;
+    border-radius: 6px;
+}
+.div5section2 .div3section2 #filtre{
+    background-color: #E65100;
+    padding:  10px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 14px;    
+}
+.div5section2 .div3section2 #filtre:hover{
+    cursor: pointer;
+    background-color: green;
+}
+#reinitialiser{
+    background-color: white;
+    padding:  10px;
+    border-radius: 6px;
+    color: black;
+    margin-top: 14px;
+}
+#reinitialiser:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.section3 .divsection3 .div1section3 .verifie{
+    position: absolute;
+    background-color: rgb(124, 243, 124);
+    color: green;
+    margin-top: -6%;
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 16%;
+}
+.section3 .divsection3 .div1section3{
+    width: 35%;
+} 
+.maintraiteur{
+    background-color: #fffbeb;
+}
+.section3 .divsection3 .div1section3 .imgsection3{
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    background-position: center;
+    position: absolute;
     border-radius: 10px;
-    background-color: rgb(248, 248, 177);
+    margin-top: -7%;
+    margin-left: -13%;
+    box-shadow: 5px 5px 30px rgb(246, 232, 232); 
 }
 
+.section3 .divsection3{
+    display: flex;
+    box-shadow: 5px 5px 30px rgb(243, 235, 235); 
+    align-items: center;
+    width: 70%;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 15%;
+}
+.section3 .divsection3 .div2section3 .specialite{
+    display: flex;
+    gap: 4px;
+}
+.section3 .divsection3 .div2section3 .specialite p{
+    padding: 1px;
+    background-color: rgb(202, 197, 197);
+    border-radius: 3px;
+}
+
+.section3 .divsection3 .div2section3{
+    text-align: justify;
+    color: rgb(82, 77, 77);
+}
+
+.section3 .divsection3 .div3section3{
+     margin-left: 30%; 
+}
+.section3 .divsection3 .div3section3 button a{
+    text-decoration: none;
+    color: white;
+}
+.section3 .divsection3 .div3section3 button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    margin-top: 100%;
+}
+.section3 .divsection3 .div3section3 button:hover{
+    cursor: pointer;
+    background-color: #E65100;
+}
+
+.section3 .divsection3 .div3section3 p i {
+    color: orange;
+}
+
+
+
+
+
+/* css  formulaire d'inscription */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF3E0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Titre */
 h1 {
     text-align: center;
+    color: #E65100;
+    margin: 30px 0;
+    font-size: 1.8rem;
 }
 
-input, select, textarea {
+/* Formulaire */
+form {
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Champs */
+form p {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    font-size: 14px;
 }
 
-button {
-    width: 100%;
-    padding: 10px;
-    background-color:#E65100 ;
+form input:focus {
+    outline: none;
+    border-color: #E65100;
+}
+
+/* Messages d'aide */
+.helptext {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Messages d'erreur */
+.errorlist {
+    color: red;
+    font-size: 12px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* Bouton */
+form button {
+    background-color: #E65100;
     color: white;
+    padding: 12px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
 }
 
-button:hover {
-    background-color: rgb(248, 248, 177) ;
+form button:hover {
+    background-color: green;
 }
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
 
 
 

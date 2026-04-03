@@ -1,14 +1,17 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %} Formulaire d'ajout  {% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'ccs/style.css' %}">
+{% endblock %}
 
-{% block content%}
+{% block title %}Inscription{% endblock %}
 
-    <h1>Formulaire de d'ajout</h1>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Envoyer</button>
-    </form>
+{% block content %}
+<h1>Inscription</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">S'inscrire</button>
+</form>
 {% endblock %}

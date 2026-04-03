@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atelier6-HTML-CSS</title>
-    <link rel="stylesheet" href="{% static "css/style.css" %}"> 
+    <title>Bienvenue</title>
+    <link rel="stylesheet" href=" {% static "css/style.css" %} "> 
     <script src="https://kit.fontawesome.com/433d3f50d4.js" crossorigin="anonymous"></script>
 
 </head>
@@ -18,17 +18,17 @@
             </div>
             <div class="bienvenue">
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="{% url "accueil" %}">Accueil</a></li>
                 <li><a href="dashboard.html">Restaurants</a></li>
                 <li><a href="#cours">Cours de Cuisine</a></li>
-                <li><a href="traiteur.html">Traiteurs</a></li>
+                <li><a href="{% url "liste_traiteurs" %}">Traiteurs</a></li>
                 <li><a href="pagecontact.html">Contacts</a></li>
             </ul>
             </div>
             <div class="connect">
                 <ul>
-                    <li><a href="connexion.html" class="cn">Connexion</a></li>
-                    <a href="inscription-traiteur.html"><li><button class="inscri">Inscription </button></li></a>
+                    <li><a href="{% url "login" %}" class="cn">Connexion</a></li>
+                    <a href="{% url "signup" %}"><li><button class="inscri">Inscription </button></li></a>
                 </ul>
             </div>
         </nav>
